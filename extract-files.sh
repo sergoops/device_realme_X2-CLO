@@ -53,6 +53,13 @@ if [ -z "${SRC}" ]; then
     SRC="adb"
 fi
 
+function blob_fixup() {
+    case "${1}" in
+	system_ext/lib64/lib-imsvideocodec.so)
+            ${PATCHELF} --add-needed "lib-imsvtshim.so" "${2}"
+            ;;
+    esac
+}
 
 # Initialize the helper
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
