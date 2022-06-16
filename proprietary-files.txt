@@ -118,6 +118,8 @@ vendor/firmware/tfa98xx.cnt
 vendor/firmware/voice_amodel.bin
 
 # Audio
+system_ext/lib/libvraudio.so
+system_ext/lib64/libvraudio.so
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
