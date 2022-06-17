@@ -190,6 +190,7 @@ ro.hardware.nfc_nci=nqx.default
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf.scroll_opt=true
+ro.vendor.perf.scroll_opt.heavy_app=true
     
 # RCS
 persist.rcs.supported=0
