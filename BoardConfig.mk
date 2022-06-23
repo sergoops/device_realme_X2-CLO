@@ -124,12 +124,6 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/manifest.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/configs/hidl/realme_vendor_framework_compatibility_matrix.xml
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/framework_manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/hidl/compatibility_matrix.xml
-ODM_MANIFEST_SKUS += \
-	365 \
-	366
-
-ODM_MANIFEST_365_FILES := $(DEVICE_PATH)/configs/hidl/manifest_sdmmagpie.xml
-ODM_MANIFEST_366_FILES := $(DEVICE_PATH)/configs/hidl/manifest_sdmmagpie.xml
 
 # LMKD
 TARGET_LMKD_STATS_LOG := true
