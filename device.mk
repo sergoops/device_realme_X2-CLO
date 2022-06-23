@@ -336,12 +336,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom/media \
     vendor/qcom/opensource/audio-hal/primary-hal
 
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power-service \
-    android.hardware.power@1.3.vendor \
-    vendor.qti.hardware.perf@2.2.vendor
-
 # QTI
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
