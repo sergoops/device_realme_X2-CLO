@@ -148,7 +148,6 @@ BOARD_ROOT_EXTRA_SYMLINKS += \
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
-TARGET_USES_INTERACTION_BOOST := true
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
